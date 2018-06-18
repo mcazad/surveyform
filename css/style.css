@@ -1,0 +1,20 @@
+body { background: #23ADC4 ;
+}
+
+
+.container {background-color: #a3a3a3;
+            justify-content: center;
+            display:flex;
+}
+form {font-size: 14px;}
+#title {
+        color: blue;
+        font-style: sans-serif;}
+
+#description {text-align: center;              
+              font-style: sans-serif;
+              font-size: 16px;
+}
+
+#survey-form p {font-size: 14px;
+}

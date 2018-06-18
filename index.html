@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC Survey Form Project</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<main class="container">
+  <div>
+    <h1 id="title">Hobby Interests<h1>
+  <hr>
+  <form id="survey-form">  
+  <p id="description">We'd like to know more about you and your hobbies so we can match you with others who like the same things. </p>
+  <p>Please fill out the following items:</p>
+  <div>
+    <label id="name-label">    
+    * Name:<input id="name" placeholder="Name" type="text" required></label> </div>
+  <div>
+    <label id="email-label">
+    * Email: <input id="email" placeholder="Email Address" type="email" required></label>       </div>
+  <div>
+    <label id="number-label">
+    * Age:<input id="number" placeholder="Age in years" min="1" max="100" type="number" required></label></div>
+    <p>
+   <fieldset>
+          <legend>Select your Favorite Hobby</legend>
+          <p>
+             <label>Hobbies</label>
+             <select id = "dropdown">
+               <option value = "1">Photography</option>
+               <option value = "2">Hiking</option>
+               <option value = "3">Whitewater Rafting</option>
+               <option value = "4">Traveling</option>
+             </select>
+          </p>
+       </fieldset>
+    <p>
+      <fieldset>
+          <legend>Best Thing about your Hobby</legend>
+        <input type="checkbox" name="best-thing" value="learning">I can learn more
+        <input type="checkbox" name="best-thing" value="Solitude">I can be alone
+        <input type="checkbox" name="best-thing" value="refreshing">I get refreshed from it
+        <input type="checkbox" name="best-thing" value="revitalizing">I am revitalized doing it.
+                  
+      </fieldset>
+    <p>
+      <fieldset>
+          <legend>Worst Thing about your Hobby</legend>
+        <input type="radio" name="worst-thing" value="Cost">Cost
+        <input type="radio" name="worst-thing" value="Time">Time
+        <input type="radio" name="worst-thing" value="Learning Time">Learning time
+        <input type="radio" name="worst-thing" value="Difficulty">It's too difficult
+      </fieldset>
+    <p>  
+      Any additional comments you wish to give us about your hobbies?
+    <p> 
+      <textarea></textarea>
+    <p>
+   <!--
+      
+    Checkboxes
+    radio buttons
+   
+
+
+    -->
+   <button type="submit" id="submit">Submit the form!</button>
+  </form>
+  </div>
+</main>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
